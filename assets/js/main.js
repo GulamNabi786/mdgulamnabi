@@ -71,21 +71,21 @@ sr.reveal('.about__img', {origin: 'left', delay: 500})
 sr.reveal('.about__subtitle', {delay: 300})
 sr.reveal('.about__profession', {delay: 400})
 sr.reveal('.about__text', {delay: 500})
-sr.reveal('.button', {origin:'bottom', delay: 400})
+sr.reveal('.button', {origin:'right', delay: 400})
 sr.reveal('.about__social-icon', {delay: 600, interval: 200})
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {origin: 'left'})
 sr.reveal('.skills__name', {origin: 'left', distance: '20px', delay: 50, interval: 100})
 sr.reveal('.skills__img', {origin: 'right', delay: 400})
-sr.reveal('.list1', {origin: 'left', delay: 400})
-sr.reveal('.list2', {origin: 'left', delay: 600})
-sr.reveal('.list3', {origin: 'left', delay: 800})
-sr.reveal('.list4', {origin: 'left', delay: 1000})
+sr.reveal('.list1', {origin: 'left', delay: 200})
+sr.reveal('.list2', {origin: 'left', delay: 400})
+sr.reveal('.list3', {origin: 'left', delay: 600})
+sr.reveal('.list4', {origin: 'left', delay: 800})
 
 
 /*SCROLL PORTFOLIO*/
-sr.reveal('.portfolio__img', {interval: 200})
+sr.reveal('.projects__img', {interval: 200})
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})
